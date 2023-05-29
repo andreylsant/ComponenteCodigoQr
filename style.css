@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
 }
 
 :root{
@@ -9,4 +10,27 @@
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: var(--Light-gray);
+}
+
+
+.conteiner main{
+    margin-top: 7.0rem;
+    border: transparent;
+    background-color: var(--White);
+    width: 17.0rem;
+    border-radius: 1.0rem;
+    padding: 1.0rem 1.0rem;
+}
+
+img{
+    width: 15.0rem;
+    border-radius: 0.5rem;
 }
