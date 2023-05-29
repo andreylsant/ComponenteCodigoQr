@@ -1,0 +1,2 @@
+# ComponenteCodigoQr
+ Meu primeiro desafio
